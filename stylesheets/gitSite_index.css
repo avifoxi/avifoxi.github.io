@@ -1,0 +1,105 @@
+body {
+	background-image: url("../images/notebook.png");
+	background-repeat:repeat;
+}
+
+
+.typewriter {
+	color: black;
+	font-family: 'Special Elite', 'Normal 400';
+	padding: 1.8em;	
+	text-align: center;
+	line-height: 1.5em;
+}
+
+header {
+	width: 22em;
+	padding: 3em;
+	margin: 2em auto;
+	background-color: rgba(107, 122, 116, .5) ;
+	border-radius: 60%;
+}
+
+
+#face {
+	border-radius: 55%;
+	background-color: red;
+}
+
+a {
+	color: teal;
+}
+ 
+/*:hover a {
+	color: white;
+}*/
+
+#week1	{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+.typewriter h1 {
+	font-size: 2em;
+}
+
+.typewriter span {
+	font-size: 1.3em;
+}
+
+.sidelist {
+	display: inline-block;
+
+}
+.line {
+	list-style-image: url('../images/typist.jpg');
+	list-style-image-width: 1.5em;
+}
+
+
+#intro {
+	border-bottom: dotted; 
+	width: 60%;
+	padding: 1em;
+	margin: 2em auto 0 auto;
+	/*color: red;*/
+
+}
+
+#about {
+	width: 35%;
+	margin: 2em auto 0 auto;
+	border-bottom: dotted; 
+
+}
+
+#looks img, h3 {display: inline-block;}
+
+#blocky {
+	width: 100px;
+	margin: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
