@@ -1,3 +1,30 @@
+/*Media Queries
+*/
+/** Tablet view **/
+@media screen and (min-width: 960px){
+  h1 {
+    font-size: 1.1em;
+    line-height: 40px;
+  }
+  header nav li{
+    line-height: 40px;
+  }
+}
+
+/** Mobile view **/
+@media screen and (max-width: 480px){
+  body  {
+    color: red;
+    background-color: green;
+  }
+  #famous article.woman {
+    float: none;
+    margin: 5px auto;
+    padding: 2%;
+    width: 80%
+  }
+}
+
 /* General Styles */
 body {
   background-color: rgb(241, 241, 241);
@@ -121,7 +148,7 @@ h4 {
 
 
 /* Famous Women */
-#famous div.woman {
+#famous article.woman {
   background-color: white;
   float: left;
   min-height: 250px;
@@ -197,4 +224,9 @@ h4 {
   content: "";
   display: table;
   clear: both;
+}
+
+a:hover {
+  background-color: yellow;
+    color: teal;
 }
