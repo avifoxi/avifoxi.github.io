@@ -1,0 +1,160 @@
+body {
+  font-family: 'Rock Salt', 'Normal 400';
+}
+
+header  {
+      text-align: center;
+      background-color: rgb(169, 107, 52);
+/*      background-size: cover;
+*/      color: white;
+      position: relative;
+      top: 0;
+}
+
+header img {
+  border: .3em solid white;
+  border-radius: 10%;
+  float: left;
+  /* margin: 1em 0 0 0; */
+  width: 7.4em;
+  max-width: 250px;
+  position: absolute;
+  right: 80%;
+  top: 2em;
+
+}
+
+header ul  {
+  width: 50%;
+  padding: .6em;
+  background: rgb(107, 122, 116);
+  position: absolute;
+  bottom: 0;
+  left: 27%;
+  margin: 0 auto;
+  clear: both;
+  border-radius: 10px;
+}
+
+.line {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+/*h1  {
+  font-size: 70px;
+}*/
+
+.wrap {
+  position: relative;
+  top: 0;
+  width: 100%;
+/*   border: .1em solid black; */
+  background-color: rgb(30, 25, 24);
+}
+
+.entry {
+  width: 90%;
+  position: relative;
+/*   border: .1em solid black; */
+/*  height: 14em;
+*/  margin:  auto;
+  top: 2em;
+  background-color: rgb(153, 183, 129);
+  padding: 1em;
+}
+
+.clear {
+  display: inline-block;
+  visibility: hidden;
+}
+
+
+
+.static {
+  width: 60%;
+  background-color: white;
+  margin: 3em auto;
+  padding: .4em;
+    position: static;
+    border: .2em solid black;
+}
+
+.relative1 {
+  width: 60%;
+  margin: 3em auto;
+  padding: .2em;
+  background-color: white;
+    position: relative;
+    border: .2em solid black;
+}
+
+
+.relative2 {
+  width: 60%;
+  margin: 3em auto;
+  padding: .2em;
+  position: relative;
+    top: -4.2em;
+  left: 6em;
+    background-color: white;    
+    border: .2em solid black;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 24%;
+  background-color: white;  
+  border: .2em solid black;
+}
+
+.relative3 {
+  width: 80%;
+  background-color: white;
+  height: 30em;
+  margin: 3em auto;
+  padding: .2em;
+  position: relative;
+  border: .2em solid black;
+}
+.absolute {
+  position: absolute;
+  top: 12em;
+  right: 0;
+  width: 50%;
+  background-color: white;
+/*   height: 4em; */
+  border: .2em solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
