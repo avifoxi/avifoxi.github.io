@@ -138,8 +138,18 @@ a:hover {
 }
 
 
+.code {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', 'Normal 400';
+  width: 70%;
+  padding: 2em;
+  margin: 0 auto;
+}
 
-
+.indent {
+  padding-left: 1em;
+}
 
 
 
