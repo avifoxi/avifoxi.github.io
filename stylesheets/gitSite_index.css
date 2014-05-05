@@ -1,105 +1,126 @@
-body {
-	background-image: url("../images/notebook.png");
-	background-repeat:repeat;
-}
-
-
-.typewriter {
-	color: black;
-	font-family: 'Special Elite', 'Normal 400';
-	padding: 1.8em;	
-	text-align: center;
-	line-height: 1.5em;
-}
-
-header {
-	width: 22em;
-	padding: 3em;
-	margin: 2em auto;
-	background-color: rgba(107, 122, 116, .5) ;
-	border-radius: 60%;
-}
-
-
-#face {
-	border-radius: 55%;
-	background-color: red;
-}
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  margin: 0;
+ }
+ 
+ body {
+	 background-color: rgb(243,204,111) ;
+ }
 
 a {
-	color: teal;
-}
- 
-/*:hover a {
-	color: white;
-}*/
-
-#week1	{
-	width: 60%;
-	text-align: center;
-	margin: auto;
+	color:rgb(139,130,62);
 }
 
-.typewriter h1 {
-	font-size: 2em;
+a:hover {
+	background-color:rgb(135,200,217);
+	font-size:1.5em;
+	border-radius: 100%;
 }
 
-.typewriter span {
-	font-size: 1.3em;
+
+.wrap {
+	position: relative;
+	width: 99.2%;
+	margin: 3em auto;
+	font-family: 'Special Elite', 'Normal 400';
+
 }
 
-.sidelist {
+.left {
 	display: inline-block;
-
-}
-.line {
-	list-style-image: url('../images/typist.jpg');
-	list-style-image-width: 1.5em;
-}
-
-
-#intro {
-	border-bottom: dotted; 
-	width: 60%;
-	padding: 1em;
-	margin: 2em auto 0 auto;
-	/*color: red;*/
+	width: 20%;
+	border: .15em dotted black;
+/* 	float:left; */
+	background-color: rgb(227, 169, 178);
+	padding: .5em;
+	position:fixed;
+	left:1em;
 
 }
 
-#about {
-	width: 35%;
-	margin: 2em auto 0 auto;
-	border-bottom: dotted; 
+.left h1 {
+	text-align: center;
+	font-size: 1.68em;
+}
+.left h2 {
+	text-align: center;
+	font-size: 1.38em;
+	margin-top:.45em;
+
+}
+.left img {
+	margin-top: .5em;
+	width: 84%;
+	border-radius:70%;
+	height: 14em;
+	position: relative;
+	left: 1.3em;
+}
+
+.main {
+	width: 63%;
+	border: .16em solid black;
+	display: inline;
+	position: fixed;
+	left: 22%;
+	background-image: url('http://l.rgbimg.com/cache1nkfzq/users/d/de/decar66/600/2dCF75e.jpg');
+	margin-left: .3em; 
 
 }
 
-#looks img, h3 {display: inline-block;}
+.week {
+	float: left;
+	width: 48.2%;
+	border: .15em dotted black;
+	border-radius:.6em;
+	margin: .3em;
+	background-image: url('http://vanimg.s3.amazonaws.com/paper-32.jpg');
+	background-repeat: repeat;
+/*	font-family: 'Patrick Hand', 'Normal 400';
+*/
+	font-size: 1em;
 
-#blocky {
-	width: 100px;
-	margin: 5em;
 }
 
 
+.week a {
+	color:black;
+}
+
+.week h2 {
+	margin-top: .5em;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.week li{
+	padding: .3em;
+}
+
+.right {
+	width: 12%;
+	border: .15em dotted black;
+	display: inline-block;
+/* 	float:left; */
+	position: fixed;
+	right:1em;
+	
+	background-color: rgb(227, 169, 178);
+	padding: .5em .5em .5em 0;
+
+}
+
+.right a {
+	font-size: 1.5em;
+	margin: 0 auto 0 1.8em;
+	
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.left li, .right li {
+	list-style-type: none;
+	margin: .6em;
+}
