@@ -30,52 +30,39 @@ a:hover {
 
 }
 
-.left {
-	display: inline-block;
-	width: 20%;
-	border: .15em dotted black;
-/* 	float:left; */
-	background-color: rgb(227, 169, 178);
-	padding: .5em;
-	position:fixed;
-	left:1em;
-
+header {
+  width: 80%;
+  margin: 0 auto;
+/*   border: .18em solid black; */
+  text-align: center;
+  clear: both;
+  font-size: 1.5em;
+}
+header img {
+  max-width: 19%;
+  border-radius:100%;
+  border: .18em solid black;
+  display: inline-block;
 }
 
-.left h1 {
-	text-align: center;
-	font-size: 1.68em;
-}
-.left h2, .main h2 {
-	text-align: center;
-	font-size: 1.38em;
-	margin-top:.45em;
-
-}
-.left img {
-	border-radius:70%;
-/*	height: 14em;
-*/	max-width: 100%; 
-	height: auto;	
+header li {
+	display: inline;
+	margin: 1%;
+	font-size:1.1em;
 }
 
-/*#faceContain {
-	margin-top: .5em;
-	width: 84%;
-	
-	position: relative;
-	left: 1.3em;
-}*/
+header h1 {font-size: 1.3em;}
+
+
 
 .main {
-	width: 63%;
+	width: 75%;
 	border: .16em solid black;
-	display: inline;
-	position: fixed;
-	left: 22%;
 	background-image: url('../images/linedpaper.png');
 	background-repeat: repeat;	
-	margin-left: .3em; 
+	margin: 1em auto; 
+	border-radius: 1em;
+
 }
 
 .main h1 {
@@ -89,17 +76,11 @@ a:hover {
 
 
 .week {
-/* 	float: left; */
 	width: 80%;
 	border: .15em dotted black;
 	border-radius:.6em;
 	margin: .3em auto;
-/* 	background-image: url('http://vanimg.s3.amazonaws.com/paper-32.jpg');
-	background-repeat: repeat; */
-/*	font-family: 'Patrick Hand', 'Normal 400';
-*/
 	font-size: 1em;
-
 }
 
 
@@ -107,9 +88,7 @@ a:hover {
 	color:black;
 }
 
-/* .week a:hover {
-	color:white;
-} */
+
 .week h2 {
 	margin-top: .5em;
 	text-align: center;
@@ -120,56 +99,17 @@ a:hover {
 	padding: .3em;
 }
 
-.right {
-	width: 12%;
-	border: .15em dotted black;
-	display: inline-block;
-/* 	float:left; */
-	position: fixed;
-	right:1em;
-	
-	background-color: rgb(227, 169, 178);
-	padding: .5em .5em .5em 0;
 
+.main {
 }
 
-.right a {
-	font-size: 1.5em;
-	margin: 0 auto 0 1.8em;
-	
+.clear {
+  clear:both;
+  visibility:hidden;
 }
 
 
-.left li, .right li {
-	list-style-type: none;
-	margin: .6em;
-}
 
-.left, .right, .main {
-	border-radius: 1em;
-}
-
-
-@media screen and (max-width: 900px)	{
-	.left {
-		position: relative;
-		top: 1em;
-		margin: 0 auto;
-		width: 70%;
-		left: 15%;
-	}
-	
-	.main {
-		position: relative;
-		clear: both;
-		
-	}
-	
-	.week {
-		position:relative;
-	}
-
-}
 
 
 

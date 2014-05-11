@@ -6,12 +6,6 @@
   margin: 0;
  }
  
-.left li, .right li {
-	list-style-type: none;
-	margin: .6em auto;
-	display: inline-block;
-}
- 
  body {
 	 background-color:rgb(227, 169, 178) ;
  }
@@ -30,64 +24,46 @@ a:hover {
 
 .wrap {
 	position: relative;
-	width: 80%;
-	margin: 0 auto;
+	width: 99.2%;
 	margin: 3em auto;
 	font-family: 'Special Elite', 'Normal 400';
 
 }
 
-.left {
-/*	display: inline-block;
-*/
-	border: .15em dotted black;
-/* 	float:left; */
-	background-color: rgb(227, 169, 178);
-	padding: .5em;
-	background-image: url('../images/linedpaper.png');
-	background-repeat: repeat;	
-/*	position:fixed;
-	left:1em;
-*/
+header {
+  width: 80%;
+  margin: 0 auto;
+/*   border: .18em solid black; */
+  text-align: center;
+  clear: both;
+  font-size: 1.5em;
+}
+header img {
+  display: none;
 }
 
-.left h1 {
-	text-align: center;
-	font-size: 1.68em;
-}
-.left h2, .main h2 {
-	text-align: center;
-	font-size: 1.38em;
-	margin-top:.45em;
-
-}
-.left img {
-	display: none;	
+header li {
+	display: inline;
+	margin: 1%;
+	font-size:1.1em;
 }
 
-.left li {
-	display: inline-block;
-/* 	margin-top: 3em; */
-/* 	text-align: center; */
-}
+.shifty  {display:block;}
 
-/*#faceContain {
-	margin-top: .5em;
-	width: 84%;
-	
-	position: relative;
-	left: 1.3em;
-}*/
+
+header h1 {font-size: 1.4em;}
+header h2 {padding-top: .5em;}
+
+
 
 .main {
+	width: 75%;
 	border: .16em solid black;
-/* 	display: inline; */
-/* 	position: fixed; */
-	left: 22%;
 	background-image: url('../images/linedpaper.png');
 	background-repeat: repeat;	
-	margin-left: .3em;
-	margin-top: 2em;
+	margin: 1em auto; 
+	border-radius: 1em;
+
 }
 
 .main h1 {
@@ -101,17 +77,10 @@ a:hover {
 
 
 .week {
-/* 	float: left; */
-	width: 80%;
-	border: .15em dotted black;
+	width: 100%;
 	border-radius:.6em;
 	margin: .3em auto;
-/* 	background-image: url('http://vanimg.s3.amazonaws.com/paper-32.jpg');
-	background-repeat: repeat; */
-/*	font-family: 'Patrick Hand', 'Normal 400';
-*/
 	font-size: 1em;
-
 }
 
 
@@ -119,64 +88,35 @@ a:hover {
 	color:black;
 }
 
-/* .week a:hover {
-	color:white;
-} */
+
 .week h2 {
-	margin-top: .5em;
+	width:90%;
+	border: .1em dotted black; 
+	padding:.3em;
+	margin: .5em auto 0 auto;
 	text-align: center;
 	font-size: 1.7em;
+	border-radius: .4em;
 }
 
 .week li{
-	padding: .3em;
-}
-
-.right {
-/* 	width: 12%; */
-	border: .15em dotted black;
-	width: 80%;
-	margin: 0 auto;
-	background-image: url('../images/linedpaper.png');
-	background-repeat: repeat;		
-	padding: .5em .5em .5em 0;
-
-}
-
-.right a {
-	font-size: 1.5em;
-	margin: 0 auto 0 1.8em;
+	padding: 1em;
+	padding-left: 20%;
+	font-size: 1.3em;
 	
 }
 
 
+.main {
+}
 
-
-.left, .right, .main {
-	border-radius: 1em;
+.clear {
+  clear:both;
+  visibility:hidden;
 }
 
 
-/*@media screen and (max-width: 900px)	{
-	.left {
-		position: relative;
-		top: 1em;
-		margin: 0 auto;
-		width: 70%;
-		left: 15%;
-	}
-	
-	.main {
-		position: relative;
-		clear: both;
-		
-	}
-	
-	.week {
-		position:relative;
-	}
 
-}
 
-*/
+
 
