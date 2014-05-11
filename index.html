@@ -2,6 +2,8 @@
 
 <html lang= "en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Avi Fox-Rosen, DBC Phase 0, Unit 1 website</title>
 
 	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css" charset="utf-8"/>
@@ -10,8 +12,12 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" type="text/css" href="stylesheets/gitSite_index.css">
 
+	<link rel='stylesheet' media='screen and (min-width: 900px)' href='stylesheets/gitSite_index.css' />
+	<link rel='stylesheet' media='screen and (max-width: 900px)' href='stylesheets/index_small.css' />
+
+<!-- 	<link rel="stylesheet" type="text/css" href="stylesheets/index_small.css">
+ -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 </head>
@@ -21,7 +27,9 @@
 		<aside class="left">
 			<h1>Avi Fox-Rosen's <br>DBC Website</h1>
 			<h2>Learning to code. <br>One bug at a time.</h2>
+			<div id="faceContain">
 			<img src="images/afr_closeFace.jpeg">
+			</div>
 			<ul>
 				<li><a href="">Home</a></li>
 				<li><a href="">Technical Blog</a></li>
@@ -30,7 +38,7 @@
 		</aside>
 
 		<div class="main">
-
+			<h1>All The Stuff I'm Learning, Organized by Week</h1>
 			<section class="week">
 				<h2>Week 1</h2>
 				<ul>
@@ -44,6 +52,7 @@
 			</section>
 
 			<section class="week">
+				<div class="clear">
 				<h2>Week 2</h2>
 				<ul>
 					<li> <i class="fa fa-check-square-o"></i> <a href="https://github.com/avifoxi/phase_0_unit_1/blob/master/week_2/1_Chrome_Dev_Tools/dev_tools_quiz.md">Dev Tools Quiz</a> </li>
@@ -80,7 +89,7 @@
 				</ul>
 
 			</section>
-
+			</div>
 		</div>
 
 		<aside class="right">
