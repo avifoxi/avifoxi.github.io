@@ -1,0 +1,148 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  margin: 0;
+ }
+ 
+header li, .right li {
+  list-style-type: none;
+  margin: .6em auto;
+  display: inline-block;
+}
+ 
+ 
+ body {
+   background-color:rgb(227, 169, 178) ;
+ }
+ 
+header {
+  width: 80%;
+  margin: 0 auto;
+/*   border: .18em solid black; */
+  text-align: center;
+  clear: both;
+  font-size: 1.5em;
+}
+header img {
+  max-width: 19%;
+  border-radius:100%;
+  border: .18em solid black;
+  display: inline-block;
+/*   float: left; */
+}
+
+a {
+  color:rgb(139,130,62);
+}
+
+a:hover {
+  background-color:rgb(135,200,217);
+/*  font-size:1.5em; */
+  border-radius: 100%;
+  color: white;
+}
+
+
+.wrap {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin: 3em auto;
+  font-family: 'Special Elite', 'Normal 400';
+
+}
+  
+.entry {
+  border: .16em solid black;
+  border-radius: 1em;
+  padding: 3em;
+  font-size: 1.3em; 
+/*  display: inline; */
+/*  position: fixed; */
+  left: 22%;
+  background-image: url('../images/linedpaper.png');
+  background-repeat: repeat;  
+  margin-left: .3em;
+  margin-top: 2em;
+}
+
+#bookface {
+/*  height: 10em;
+*/  width: 70%;
+    margin: 0 3em;
+}
+
+#ryuken {
+  border-radius: 70%;
+  float: right;
+  margin-right: 2em;
+}
+
+.code {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', 'Normal 400';
+  width: 70%;
+  padding: 2em;
+  margin: .4em auto;
+}
+
+.indent {
+  padding-left: 1em;
+  display: block;
+}
+
+.indentier {
+  padding-left:1.5em;
+  display: block;
+}
+
+.entry p {line-height:1.3em;}
+
+.entry h1 {
+  font-size: 1.6em;
+  text-align: center; 
+  margin: .5em;
+}
+
+em {
+  color: rgb(75, 140, 157);
+  font-size: 1.2em;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.week {
+/*  float: left; */
+  width: 80%;
+  border: .15em dotted black;
+  border-radius:.6em;
+  margin: .3em auto;
+/*  background-image: url('http://vanimg.s3.amazonaws.com/paper-32.jpg');
+  background-repeat: repeat; */
+/*  font-family: 'Patrick Hand', 'Normal 400';
+*/
+  font-size: 1em;
+
+}
+
+.scary {
+  font-family: "Creepster", "Normal 400";
+  font-size: 1.3em;
+  color: green;
+}
+
+
+.clear {
+  clear:both;
+  visibility:hidden;
+}
+
+
+
+/**/
