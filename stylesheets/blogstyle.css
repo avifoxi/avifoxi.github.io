@@ -99,6 +99,14 @@ a:hover {
   display: block;
 }
 
+.quote {
+  background-color: rgba(0, 0, 0, .5 );
+  color: white;
+  width: 70%;
+  padding: 2em;
+  margin: .4em auto;
+}
+
 .entry p {line-height:1.3em;}
 
 .entry h1 {
