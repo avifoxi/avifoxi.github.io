@@ -44,7 +44,6 @@ a:hover {
   color: white;
 }
 
-
 .wrap {
   position: relative;
   width: 80%;
@@ -53,7 +52,7 @@ a:hover {
   font-family: 'Special Elite', 'Normal 400';
 
 }
-  
+
 .entry {
   border: .16em solid black;
   border-radius: 1em;
@@ -68,6 +67,10 @@ a:hover {
   margin-top: 2em;
 }
 
+article .sub {
+  width: 100%;
+}
+
 #bookface {
 /*  height: 10em;
 */  width: 70%;
@@ -75,6 +78,13 @@ a:hover {
 }
 
 #ryuken {
+  border-radius: 70%;
+  float: right;
+  margin-right: 2em;
+}
+
+#odd_chair {
+  width:  15em;
   border-radius: 70%;
   float: right;
   margin-right: 2em;
