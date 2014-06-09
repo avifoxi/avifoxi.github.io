@@ -161,6 +161,37 @@ em {
   visibility:hidden;
 }
 
+table {
+  margin: 0 auto;
+  border: .15em solid black;
+  border-radius: .3em;
+}
+
+td, th {
+  padding: .3em 2em;
+  border: .08em solid black;
+  border-radius: .2em;
+/*  margin: 3em;
+*/
+}
+
+#security {
+  float: left;
+  width: 35%;
+}
+
+#pirate {
+  float: right;
+  width: 40%;
+  border-radius: 80%;
+}
+
+
+/*tr {  
+  border: .1em solid black; 
+  margin: .3em;
+}*/
+
 
 
 /**/
