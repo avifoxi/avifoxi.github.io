@@ -1,0 +1,10 @@
+.code {
+	width: 130%;
+	background-color: black;
+	color: white;
+	font-family: $monospace;
+	display: block;
+	@include shift(-2);
+	padding: 0.5em 0em .5em 2em;
+
+}
