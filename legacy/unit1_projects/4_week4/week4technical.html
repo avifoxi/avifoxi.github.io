@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../week2styles/reset.css" charset="utf-8"/>
+
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="week4styles/blogstyle.css">
+	
+
+</head>
+
+<body>
+
+	<div class="wrap">
+	<header>
+	  <img src="../../images/avi_head.jpg">
+	  <h1>Avi Learns to Code</h1>
+	  <h2>a dbc technical blog</h2>
+	  <ul>
+	    <li class="line"><a href="../../index.html">Home</a></li>
+	    <br><li class="line"><a href="#"><i class="fa fa-arrow-left"></i>Next</a></li>
+	    <li class="line"><a href="#">Prev<i class="fa fa-arrow-right"></i></a></li>
+	  </ul>
+	  <div class="clear">.</div>
+	</header>
+
+
+	
+
+		<article class="entry">
+			
+
+		<h1>Enumerating the merits of <em>.group_by</em></h1>  
+
+		<p>In this technical blog I will explore the Ruby Enumerable <em>.group_by</em>.</p>
+		
+		<p><br>So what does it do? </p> 
+
+		<p><br>I&#39;ll expand on the description in <a href="http://www.ruby-doc.org/core-2.1.1/Enumerable.html#method-i-group_by">Ruby Doc:</a></p>  
+
+		<ul>
+			<li><em>.group_by</em> accepts an enumerable data set, an array or a hash. Whatever&#39;s your pleasure.</li> 
+			<li>The function returns a new hash.</li>
+			<li>The keys of the new hash are the evaluated result of the block of code you may provide. </li>
+			<li>The values are arrays of elements in the collection that correspond to the key. </li>
+
+		</ul>
+
+		<p><br>Let&#39;s look at a practical application for this function. </p> 
+
+		<p><br>Pretend that I create an awesome web app that accepts an image of your face, and returns your face smooshed onto the cover of a book, with your name as the title. Let’s say I called the app Bookface. </p>
+
+		<div class="code"><img id="bookface" src="../../images/Bookface.png"></div>
+
+		<p><br>The team here at Bookface has lots of user data. We even have a hash containing the amount of times our users have smooshed faces this week. </p>
+
+		<p><br>We want to be able to access our users based on their frequency of use.</p>
+
+		<p><br>So let&#39;s group our users! </p>
+
+		<p><br>Oh, also, did I mention that Bookface users are almost exclusively US presidents and their wives? Bookface is poised to sweep Washington. Anyhoo. </p>
+
+		<p><br>Checkout our hash. All <em>keys</em> are user names, and the <em>values</em> are the average number of times per day they’ve smooshed faces this week.</p>
+
+
+		<p class="code"><br>bf_logins = <span class="indent">{ "Bush Senior" => 8, "Barbara" => 36,>"Lincoln" => 0, "Molly" => 0, "Bill" => 123, "Hillary" => 180,
+                     "Barack" => 78, "Michelle" => 187, "Laura" => 40, "GW" => 690 }</span></p>
+
+        <p><br>So let&#39;s use <em>.group_by</em>, dividing our users into categories based on their frequency of use. 
+		<br>We&#39;re feeding the function the <em>bf_logins</em> hash, so we&#39;re going to have to designate that we want to evaluate the values to group our data, and not the keys. And we&#39;ll divide them to 4 categories. </p>
+
+		<p class="code"><br>p bf_logins.group_by {|name, logins|
+		   <span class="indent">if logins > 500 </span>
+		   	<span class="indentier">'obsessed'</span>
+
+		   	<span class="indent">elsif logins > 100</span>
+		   	<span class="indentier">'frequent'</span>
+
+		   	<span class="indent">elsif logins > 0</span>
+		   	<span class="indentier">'moderate'</span>
+
+		   	<span class="indent">else</span>
+		   	<span class="indentier">'dead'</span>
+	  
+		   <br><span class="indent">end</span>
+		<br>}</p>
+
+		<p>And look what we get!</p>  
+		<p><br>A new <em>hash</em>, where the <em>keys</em> are the user frequency categories, and the <em>values</em> are <em>each arrays of the key => value pairs </em> from the original <em>bf_logins hash.</em> </p>
+
+		<p class="code"><br>=>{ <em>"frequent"=></em>  [["Barack", 78], ["Bill", 123], ["Hillary", 180], ["Michelle", 187]], 
+
+		<span class="indent"><em>"moderate"=></em>  [["Barbara", 36], ["Laura", 40], ["Bush Senior", 8]],</span>
+
+		<span class="indent"><em>"dead"=></em>  [["Lincoln", 0], ["Molly", 0]], </span>
+
+		<span class="indent"><em>"obsessed"=> </em> [["GW", 690]]}</span>
+		</p>	
+
+		<p><br>Looks like GW is really into face smooshing. Hm. 
+		Also Molly and Lincoln haven&#39;t logged in for a while. Perhaps someone should check on them. 
+		Anyways - I hope this was useful!</p>
+		</article>
+
+	</div>
+
+
+
+
+</body>
+</html>

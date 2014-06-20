@@ -1,0 +1,33 @@
+<header class="site-header">
+
+  <div class="wrap">
+
+    <img src="images/avi_head.jpg" alt="">
+
+    <div class="right_header">
+      
+
+      <h2><a class="site-title" href="{{ site.baseurl }}/">Avi Fox-Rosen</a></h2>
+
+      <p>{ RoR web developer }<br>{ musician }<br>{ home recording geek }<br>{ smoked fish connoisseur }</p>
+
+      <nav class="site-nav">         
+          <div class="trigger">
+
+            <ul>
+            {% for page in site.pages_list %}
+              &nbsp;&nbsp;&nbsp;
+              <a href="{{ page[1]  }}">{{ page[0] }}</a>
+            {% endfor %}
+            </ul>
+
+          </div>
+      </nav>
+    
+    </div>
+
+    
+
+  </div>
+
+</header>

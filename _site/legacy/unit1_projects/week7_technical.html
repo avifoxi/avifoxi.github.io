@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../week2styles/reset.css" charset="utf-8"/>
+
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
+
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blogstyle.css">
+	
+
+</head>
+
+<body>
+
+	<div class="wrap">
+	<header>
+	  <img src="../images/avi_head.jpg">
+	  <h1>Avi Learns to Code</h1>
+	  <h2>a dbc technical blog</h2>
+	  <ul>
+	    <li class="line"><a href="../../index.html">Home</a></li>
+	    <br><li class="line"><a href="#"><i class="fa fa-arrow-left"></i>Next</a></li>
+	    <li class="line"><a href="#">Prev<i class="fa fa-arrow-right"></i></a></li>
+	  </ul>
+	  <div class="clear">.</div>
+	</header>
+
+
+	
+
+		<article class="entry">
+			
+			
+			<h1>Strategies for Minimizing Database Vulnerability</h1>
+
+
+			<p><br>This week at DBC served as my introduction to <em>databases</em> and gave me my first taste of <em>SQL</em>, the most common database language currently in use. While the topic may seem dry at first, it quickly becomes apparent that all of the shiniest bells and whistles that we love in web apps are entirely dependent on databases. </p>
+
+			<img id="security" src="../images/web-security.png">
+
+			<p><br>Databases store data about, well... EVERYTHING. Tweets. User accounts. Payment information. Grades. Likes. Sites visited. Exchange rates. Recent transactions. Availability of resources. Contacts. The list goes on (along with several cross referenced lists linked by foreign key ids). </p>
+
+			<p><br>BUT - with the powerful access that apps provide to data, they also open the door for users to try to manipulate this data in unsafe ways.</p>
+
+			<p><br>One of the most pervasive attacks on web apps is SQL injection. Dynamic web apps are built to allow users to interact with databases. Users send their information, or requests for information from  the front end interface. The app then embeds this user input into a SQL query - translating user text into a structure that the Database Management System (DBMS) can understand. A hacker can manipulate this translation and insert an additional SQL query into the input field. This additional command, or <em>injection</em>, can wreak havoc by accessing privileged information or damaging the database records.</p>
+
+			<p><br><em>UNLESS</em> the proper precautions are taken.</p>
+
+			<p><br>Luckily for new devs like me, there are many excellent resources that allow us to safeguard our apps from the scourge of SQL Injection.</p>
+
+			<p><br>(you're probably doing a double take. did he really write 'scourge'? <br>yes. <br>yes he most certainly did.)</p>
+
+			<img id="pirate" src="../images/hacker-pirate.jpg">
+
+			<p><br>The Open Web Application Security Project, or <a href="https://www.owasp.org/index.php/SQL_Injection">OWASP</a>, provides a <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection Prevention Cheat Sheet.</a> Very generous, no? They write that to prevent SQL Injection, <em>"developers need to  prevent user supplied input which contains malicious SQL from affecting the logic of the executed query."</em></p>
+
+			<p><br>Here is brief description of best practices - though for specific code and strategy, check the above links. </p>
+
+			<ol>
+				<li><em>Prepared Statements</em>: the app inserts user input fields into variables that are plugged into SQL templates called 'Prepared Statements'. The input is escaped, and cannot contain viable SQL code.</li>
+				<li><em>Stored Procedures</em>: basically the approach as above, but rather than the templates being stored within the app, the templates are stored and accessed within the Database itself.</li>
+				<li><em>Escape All User Input</em>: not reccomended as a practice, though may be necessary as the most cost effective security measure for legacy products.</li>
+			</ol>
+
+			<p><br>Additionally, Devs should build the following considerations into app design.</p>
+
+			<ul>
+				<li><em>Least Privilege</em>: consider the level of access each type of user should have to the DBMS. And ensure that they have the bare minimum access necessary to query the data relevant for their needs. No more, and no unintentionally broad access.</li>
+				<li><em>White List Input Validation</em>: Assemble a list of valid characters for each input field - and only allow users to type values from this 'white list' of valid inputs.</li>
+			</ul>
+
+
+		</article>
+
+	</div>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+	.hero {
+	$hero-background: desaturate(darken($base-accent-color, 20), 30);	
+	$hero-color: white;
+
+	background: url(../images/bourbons.jpg);
+	background-color: $hero-background;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-bottom: 4em;
+
+	.hero-inner {
+		@include outer-container;
+		@include clearfix;
+		width: 80%;
+		padding: 3em;
+		margin: auto;
+		text-align: center;
+		color: $hero-color;
+
+
+
+		.hero-copy {
+			text-align: center;
+			border-radius: 3em;
+			background-color: rgba(213, 173, 111, 0.9);
+			h1 {
+				font-size: 1.4em;
+				margin-bottom: .2em;
+
+				@include media($large-screen) {
+					font-size: 1.8em;
+				}
+			}
+
+			p {
+				margin: auto;
+				margin-bottom: 3em;	
+				font-weight: 200;
+
+				@include media($large-screen) {
+					font-size: 1.4em;
+					max-width: 40%;
+				}
+			}
+		}
+	}
+}

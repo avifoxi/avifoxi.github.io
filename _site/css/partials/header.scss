@@ -1,0 +1,75 @@
+.site-header {
+	@include span-columns(10);
+	@include shift(1);
+	@include clearfix;
+	// @include outer-container;
+	margin-top: 3em;
+	// border: green solid 0.1em;
+
+	img {
+		@include span-columns(1.5 of 10);
+		float: left;
+		border-radius: 100%;
+		border: solid $base-accent-color .15em;
+	}
+
+	.right_header {
+		// float: left;
+		
+		h2 {
+			@include span-columns(3 of 8.5);
+			@include pad();
+			display: inline;
+			padding-top: 0.3em;
+
+			// padding-left: 0.5em;
+
+		}
+		p {
+			@include span-columns(3.5 of 8.5);
+			@include pad();
+			// @include omega();
+			display: inline;
+			padding-top: 0.5em;
+			text-align: right;
+		}
+
+		.site-nav {
+			@include outer-container;
+			@include span-columns(10 of 10);
+
+
+			background-color: $base-background-color + 20;
+			padding: 0.3em 0;
+			border-radius: 0.5em;
+
+			ul {
+				@include shift(1.5);
+				// @include span-columns(8 of 10);
+				li {
+				  display: inline-block;
+				  @include span-columns(2);
+  				  @include omega(4n);
+				}
+			}
+
+			a {
+				padding: 0.5em;
+				// margin: 1em;
+				// border: black solid 0.1em;
+				background-color: $base-button-color;
+				color: $base-button-color - 100;
+				border-radius: 0.5em;
+
+			}
+		
+			a:hover {
+				background-color: $base-button-color - 100;
+				color: $base-accent-color + 100;				}
+		}
+	}
+
+	
+	
+
+}
