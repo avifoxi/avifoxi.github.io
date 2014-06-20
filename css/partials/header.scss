@@ -26,7 +26,7 @@
 
 		}
 		p {
-			@include span-columns(3.5 of 8.5);
+			@include span-columns(3.9 of 8.5);
 			@include pad();
 			// @include omega();
 			display: inline;
@@ -45,11 +45,15 @@
 
 			ul {
 				@include shift(1.5);
+				// margin: 0 auto;
+				// display: table-row;
+				width: 100%;
 				// @include span-columns(8 of 10);
 				li {
-				  display: inline-block;
-				  @include span-columns(2);
-  				  @include omega(4n);
+				  display: table-cell;
+				  width:1%;
+				  // @include span-columns(2);
+  				//   @include omega(4n);
 				}
 			}
 
@@ -68,8 +72,6 @@
 				color: $base-accent-color + 100;				}
 		}
 	}
-
-	
-	
-
 }
+
+

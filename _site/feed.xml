@@ -7,66 +7,140 @@
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Revisiting My Learning Styles</title>
+        <description>&lt;p&gt;According to my Gregorc Thinking Style Test, I most strongly score as a Concrete Random (CR) Learner, followed by my score as a Concrete Sequential (CS) Learner. Read about these general frameworks here. Thank you Mr. Gregorc! 
+Also, I love your name. &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;This manifests in how I exploit trial + error experimentation, and how I appreciate structure and concrete expectations. I prefer to have the independence to fulfill expectations in my own style. I usually respond really well to structure that I create for myself, while I tend to chafe at structure imposed upon me by others.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I think my biggest challenge in Phase 0 has been adjusting to being a true novice in a new field. I prefer to gain confidence and practice with a new tool before immediately deploying it. And the demands of DBC often mean I have to dive right into something I really don’t understand yet. &lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For example, when deploying a new tool, I tend to read the instruction manual first off. This is true in implementing new software tools also - I visit the docs, and attempt to get at least a cursory understanding before I put it to work. 
+And sometimes, this research phase can take a while - really preventing me from doing the work. My girlfriend might even call it procrastination. I’m on the fence… it may just be a my learning style. OR she may be right. She’s usually right. Meh.&lt;/p&gt;
+
+&lt;p&gt;DBC (and perhaps software development more generally?) is certainly not the place to bury my head in a book. It’s a workshop, and a place to experiment. AND I REALLY LIKE TO EXPERIMENT! But I also like to research, compare approaches, and make an informed choice.&lt;/p&gt;
+
+&lt;p&gt;I will need to encourage myelf, rather against my instinct, to jump before I look! &lt;/p&gt;
+
+&lt;p&gt;I think the best way I can to this is by finding pairs who may tend to shoot from the hip a bit more than I, and try to work with them. And let them navigate, and enjoy the roller coaster ride. So many metaphors. Sheesh. 
+So much summer. &lt;/p&gt;
+
+&lt;p&gt;Gotta get as much sun as I possibly can before I start DBC! 
+WEEKEND AHOY!!!&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 17 Jun 2014 10:12:22 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/17/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/17/welcome-to-jekyll/</guid>
+        <pubDate>Fri, 20 Jun 2014 10:12:22 -0400</pubDate>
+        <link>http://yourdomain.com/cultural/2014/06/20/cultural-week9-learning_style/</link>
+        <guid isPermaLink="true">http://yourdomain.com/cultural/2014/06/20/cultural-week9-learning_style/</guid>
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Bourbon Based Cocktails</title>
+        <description>&lt;p&gt;In my &lt;a href=&quot;http://avifoxi.github.io/legacy/unit1_projects/sassy_bartender/index.html&quot;&gt;last installment&lt;/a&gt; of my technical blog, I described how to install and configure some wonderful design tools:&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;I described how Sass functions in my last blog post. &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The Thoughtbot suite of tools are built to exploit Sass’ built in funcionality and give us as designers a set of tools at our fingertips that we will not have to re-define with &lt;em&gt;every&lt;/em&gt; new project. Thanks!&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;bourbonhttpbourbonio&quot;&gt;&lt;a href=&quot;http://bourbon.io/&quot;&gt;&lt;strong&gt;Bourbon&lt;/strong&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Bourbon is a set of Sass mixins that have been expertly predefined for us, that we can import when we choose into our .scss file. 
+When you install Bourbon on a project, you have access to ALL these mixins which you can use as you see fit. 
+But nothing extra is added to your CSS files until you @include a specific mixin. 
+Some examples of cool mixins you’ll like? &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+@include clearfix; 
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This single line of code in your .scss file is translated by Sass to several lines of code in the file you’ve set a link between 
+&lt;code&gt;sass --watch style.scss:style.css&lt;/code&gt;
+The Bourbon mixin specifies a multiline clearfix with cross browser compatibility. COOL!&lt;/p&gt;
+
+&lt;p&gt;Similarly useful &lt;code&gt;@include&lt;/code&gt;s include ‘outer-container’, ‘span-columns’, ‘shift(&lt;em&gt;specified-num-of-columns&lt;/em&gt;)’.&lt;/p&gt;
+
+&lt;p&gt;I’ve only just begun to explore what is possible with Bourbon. And there is SO much they’ve included, its really astounding. But pre-mixed animations, columns, alignment tools… NICE. &lt;/p&gt;
+
+&lt;p&gt;Explore them all on the &lt;a href=&quot;http://bourbon.io/docs/&quot;&gt;Bourbon Docs&lt;/a&gt; page. &lt;/p&gt;
+
+&lt;h4 id=&quot;neathttpneatbourbonio&quot;&gt;&lt;a href=&quot;http://neat.bourbon.io/&quot;&gt;&lt;strong&gt;Neat&lt;/strong&gt;.&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Neat is an easily modifiable grid system built using the mixins defined in Bourbon. They’re a powerful duo! &lt;/p&gt;
+
+&lt;p&gt;Neat is pre-engineered to be responsive - so we can jump straight into using them, and know that the grid will hold up accross multiple platfoms. &lt;/p&gt;
+
+&lt;p&gt;Particularly useful is a circus-tent-looking grid overlay that you can enable or disable on any page that you’re designing. Very cool - the toggle is in Neat’s settings folder, the  &lt;code&gt;_visual-grid.scss&lt;/code&gt; file. Open the file up in your text editor and toggle line 1 between true or false to see a nice grid overlay. &lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://neat.bourbon.io/docs/&quot;&gt;Neat Docs&lt;/a&gt;, and the awesomely laid out &lt;a href=&quot;http://neat.bourbon.io/examples/&quot;&gt;Examples&lt;/a&gt; page. &lt;/p&gt;
+
+&lt;h4 id=&quot;bittershttpbittersbourbonio&quot;&gt;&lt;a href=&quot;http://bitters.bourbon.io/&quot;&gt;&lt;strong&gt;Bitters&lt;/strong&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Is Bitters cheating? 
+Who cares. &lt;/p&gt;
+
+&lt;p&gt;It’s awesome. 
+If you include Bitters on your project, it imports a nicely styled set of defaults for you to love, and easily manipulate. &lt;/p&gt;
+
+&lt;p&gt;If you’re styling a project with Bitters, the first file you should visit is your &lt;code&gt;_variables.scss&lt;/code&gt; file within Bitters’ mixins directory. &lt;/p&gt;
+
+&lt;p&gt;Within this file, you can quickly manipulate the global fonts, colors, and typography for the project. And virtually everthing is modifiable within the pretty set of folders which you should not be afraid to explore and change as you see fit.  &lt;/p&gt;
+
+&lt;h4 id=&quot;refillshttprefillsbourbonio&quot;&gt;&lt;a href=&quot;http://refills.bourbon.io/&quot;&gt;&lt;strong&gt;Refills&lt;/strong&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Refills is definitely cheating. 
+No two ways about it. &lt;/p&gt;
+
+&lt;p&gt;Refills are prefab pieces of code that implement pretty elements into your page ready to go. 
+So so cool - and easy peasy from the get go. ALTHOUGH - I had a harder time manipulating these fully assembled pieces. It’s more likely that more experienced designer would have no problem. 
+But again - the code is right there for you to futz with should you so choose. &lt;/p&gt;
+
+&lt;p&gt;And that’s all for now.
+Hurray Weekend Before DBC!!&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 17 Jun 2014 10:12:22 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/17/fakeysnake2/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/17/fakeysnake2/</guid>
+        <link>http://yourdomain.com/technical/design/2014/06/17/tech9-more-sass/</link>
+        <guid isPermaLink="true">http://yourdomain.com/technical/design/2014/06/17/tech9-more-sass/</guid>
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Pairing is Caring</title>
+        <description>&lt;p&gt;Pairing is invigorating, and keeps me focused through a challenge. It ensures many fewer visits to facebook, and significantly reduced meme chasing. I have learned something from every one of my pairing partners - even if it didn’t feel like a natural personality fit when undertaking the challenge.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;HOWEVER - I also know that am an introvert. Even though I love to socialize and collaborate, I also need personal time to recharge my social batteries. I love working by myself on artistic projects, and have ‘my’ workflow well established as a musician.  I understand my social needs pretty well too. I love to dance to the wee hours… but I’ll probably spend the next day in my PJs nursing a cup of tea. &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I am excited by the emphasis on pairing at DBC and in the tech world more generally. It’s one of the aspects of web development that seems most appealing to me as I transition from a pro musician- it feels very familiar. And I’m much more interested in people than computers! &lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At the same time - the prospect of 9 weeks of super-saturated socializing makes me a wee bit terrified. I have no doubt I can stay focused and work the hours. I love intense projects. I’m a little more worried whether I’ll be able to feel balanced when I’m surrounded by so many people during the majority of my waking hours!&lt;/p&gt;
+
+&lt;p&gt;As for feedback - 
+I really appreciate honesty. 
+I have been criticized for being unreservedly honest (this was a while back, and I’ve actively worked to temper my honesty with kindness and care), and I appreciate when people mirror back to me the same kind of honesty that I try to project. &lt;/p&gt;
+
+&lt;p&gt;SO - it’s very exciting to read back over my feedback, and feel that my contributions and honesty are well received. &lt;/p&gt;
+
+&lt;p&gt;My biggest challenges will be:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Staying flexible within pairing sessions, and truly stepping back when my partner is navigating.&lt;/li&gt;
+  &lt;li&gt;Encouraging playfulness within the work.&lt;/li&gt;
+  &lt;li&gt;Creating a positive working environment EVEN IF I don’t necessarily jive 100% with partner’s styles. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The hardest feedback I’ve had to write have been for 2 difficult sessions - and I was torn within the sessions for how to behave. In both of the sessions, I had a decently clear idea of how to solve the problems. And I felt my partners didn’t understand the problem, and were navigating us down the wrong path. Also, the partners may not have held clearly to the defined roles, or the release instructions… so it was hard to keep us on track!&lt;/p&gt;
+
+&lt;p&gt;I tend to try to be ‘polite’ which mean I do not coopt the session and strong arm my sense of where to go. I try to explain my thought process and build consensus with my partner.
+But if my partner doesn’t read or understand the instructions, and doesn’t let me navigate when it’s my turn - what to do? &lt;/p&gt;
+
+&lt;p&gt;And - honestly, I don’t know what the right answer is. &lt;/p&gt;
+
+&lt;p&gt;BUT - 
+OVERALL - My experience with pairing has been overwhelmingly positive. It’s a real privilege to be learning with so many driven, curious, and friendly people. Looking forward to much more!&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 17 Jun 2014 10:12:22 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/17/fakeysnake1/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/17/fakeysnake1/</guid>
+        <pubDate>Sat, 14 Jun 2014 10:12:22 -0400</pubDate>
+        <link>http://yourdomain.com/cultural/2014/06/14/culturalWeek8/</link>
+        <guid isPermaLink="true">http://yourdomain.com/cultural/2014/06/14/culturalWeek8/</guid>
       </item>
     
   </channel>

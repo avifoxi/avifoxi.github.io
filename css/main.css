@@ -245,7 +245,7 @@ input[type="submit"] {
     float: left;
     display: block;
     margin-right: 3.0303%;
-    width: 39.39394%;
+    width: 44.24242%;
     padding: 2.12766%;
     display: inline;
     padding-top: 0.5em;
@@ -270,19 +270,11 @@ input[type="submit"] {
     .site-header .right_header .site-nav:last-child {
       margin-right: 0; }
     .site-header .right_header .site-nav ul {
-      margin-left: 15.38462%; }
+      margin-left: 15.38462%;
+      width: 100%; }
       .site-header .right_header .site-nav ul li {
-        display: inline-block;
-        float: left;
-        display: block;
-        margin-right: 2.12766%;
-        width: 14.89362%; }
-        .site-header .right_header .site-nav ul li:last-child {
-          margin-right: 0; }
-        .site-header .right_header .site-nav ul li:nth-child(4n) {
-          margin-right: 0; }
-        .site-header .right_header .site-nav ul li:nth-child(4n+1) {
-          clear: left; }
+        display: table-cell;
+        width: 1%; }
     .site-header .right_header .site-nav a {
       padding: 0.5em;
       background-color: #3369b6;
@@ -310,6 +302,66 @@ input[type="submit"] {
       display: inline;
       font-size: 1.5em;
       padding: 0 0.5em; }
+
+.contact-list {
+  font-size: 1.55em; }
+
+.grid-items-lines {
+  position: relative; }
+  .grid-items-lines:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .grid-items-lines .grid-item {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    height: 14em;
+    background: #e3a9b2;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    padding: 2em;
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    cursor: pointer; }
+    @media screen and (min-width: 53.75em) {
+      .grid-items-lines .grid-item {
+        width: 33.33333%; } }
+    .grid-items-lines .grid-item:hover {
+      background: rgba(51, 51, 51, 0.05); }
+  .grid-items-lines .grid-item img {
+    display: block;
+    height: 2.5em;
+    margin-bottom: 1.2em;
+    opacity: .2; }
+  .grid-items-lines .grid-item h1 {
+    color: #333333;
+    font-size: 1.3em;
+    margin-bottom: .4em; }
+  .grid-items-lines .grid-item p {
+    color: rgba(51, 51, 51, 0.6); }
+    @media screen and (min-width: 40em) {
+      .grid-items-lines .grid-item p {
+        max-width: 70%; } }
+  @media screen and (min-width: 53.75em) {
+    .grid-items-lines .grid-item-big {
+      width: 66.66667%; } }
+  @media screen and (min-width: 40em) {
+    .grid-items-lines .grid-item-big p {
+      max-width: 60%; } }
+  .grid-items-lines .bottom-cover {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background: #e3a9b2; }
+  .grid-items-lines .right-cover {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 4px;
+    background: #e3a9b2; }
 
 .full-contain {
   max-width: 68em;

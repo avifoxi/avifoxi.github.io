@@ -1,8 +1,11 @@
-<header class="site-header">
+
+
+
+    <header class="site-header">
 
   <div class="wrap">
 
-    <img src="images/avi_head.jpg" alt="">
+    <img src="http://avifoxi.github.io/images/avi_head.jpg" alt="">
 
     <div class="right_header">
       
@@ -13,21 +16,22 @@
 
       <nav class="site-nav">         
           <div class="trigger">
-
             <ul>
-            {% for page in site.pages_list %}
+              {% for page in site.pages_list %}
               &nbsp;&nbsp;&nbsp;
               <a href="{{ page[1]  }}">{{ page[0] }}</a>
             {% endfor %}
             </ul>
+
+          
 
           </div>
       </nav>
     
     </div>
 
-    
-
   </div>
+
+
 
 </header>

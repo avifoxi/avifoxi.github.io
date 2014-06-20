@@ -2,8 +2,8 @@
 title: Avi Fox-Rosen RoR Dev and Musician
 email: frosenox@gmail.com
 description: "Avi Fox-Rosen, RoR Web Dev and Musician"
-baseurl: ""
-url: "http://yourdomain.com"
+baseurl: "http://avifoxi.github.io/"
+url: "http://avifoxi.github.io/"
 
 # Build settings
 markdown: kramdown
