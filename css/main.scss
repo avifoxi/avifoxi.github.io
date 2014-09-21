@@ -1,39 +1,6 @@
-@import 'bourbon/bourbon';
-@import 'base/grid-settings';
-@import 'neat/neat';
-@import 'base/base';
-
-@import 'partials/header';
-@import 'partials/footer';
-@import 'partials/contact';
-
-
-.full-contain {
-	@include outer-container;
-
-	.page-content {
-		@include span-columns(9);
-		@include shift(1.5);
-		@include omega();
-
-	}
-
-	#pretty_punim {
-		float: right;
-		width: 45%;
-		margin: 0 0 0.5em 0.5em;
-		border-radius: 0.5em;
-	}
-
-	iframe {
-		// @include span-columns(3);
-		@include size(12em);
-		float: right;
-		margin: 0 0 0.2em 0.2em;
-	}
-
-	.post {
-		padding: 1em;
-	}
-
-}
+@import 'base/normalize';
+@import 'base/jekyll_base';
+@import 'base/simplegrid';
+@import 'base/colorvars';
+@import 'base/typography';
+@import 'base/overwrite';

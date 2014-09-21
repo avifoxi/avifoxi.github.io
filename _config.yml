@@ -1,17 +1,10 @@
 # Site settings
-title: Avi Fox-Rosen RoR Dev and Musician
+title: Avi Fox-Rosen
 email: frosenox@gmail.com
-description: "Avi Fox-Rosen, RoR Web Dev and Musician"
-baseurl: "http://avifoxi.github.io/"
-url: "http://avifoxi.github.io/"
+description: "Web developer, musician, recording fanatic, baker."
+baseurl: ""
+url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-pages_list:      
-  About: "/about"
-  Dev Projects: "/projects"
-  Music: "/music"
-  Blog: "{{ site.baseurl }}"
-  Contact: "/contact"

@@ -2,19 +2,58 @@
 layout: default
 ---
 
-<div class="home">
+<div class="grid">
 
-  <h1>Posts</h1>
+	<div class="greeting col-1-2">
+		<h2>What I'm Doing With My Life!</h2>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+		<p>I do my best to make meaningful things each day, whether writing code, making music, or baking bread.</p>
+	</div>
+	<div class="col-1-2 push-right">
+		<img class="afr-face" src="/images/low_res_face.png" alt="">
+	</div>
+	
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
 
+	<hr>
+
+<div class="grid pad-me">
+	<div class="col-1-1">
+		<h3 class="center-text">Code. Music. Bread. <br>Doing stuff I care about to feed myself and others.</h3>
+		<hr>
+	</div>
+	<div class="col-1-3 index-col">
+		<h3>Web Developer</h3>
+			<div>
+			<ul class="over-list">
+				<li>Object Oriented Design</li>
+				<li>Ruby on Rails</li>
+				<li>Javascript</li>
+				<li>Agile and Test Driven Development</li>
+				<li>Web Audio API</li>
+				<li>Git Workflow</li>
+				<li>Communication and Pairing</li>
+			</ul>
+			</div>
+	</div>
+
+	<div class="col-1-3 index-col">
+		<h3>Musician</h3>
+			<ul>
+				<li>Guitarist + Multi Instrumentalist</li>
+				<li>Songwriter, Arranger, Producer</li>
+				<li>Recording Engineer</li>
+				<li>Digital Audio Workstations: Pro Tools and Logic</li>
+			</ul>
+	</div>
+
+	<div class="col-1-3 index-col">
+		<h3>Baker</h3>
+			<ul>
+				<li>Sourdough</li>
+				<li>Jewish Baked Things</li>
+				<li>Dark Breads</li>
+			</ul>
+	</div>
 </div>

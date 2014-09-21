@@ -1,0 +1,50 @@
+.afr-face {
+	width: 100%;
+}
+
+.greeting {
+	text-align: center;
+	padding-top: 15%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.clear {
+	visibility: hidden;
+	clear: both;
+}
+
+.index-col {
+
+	h3 {
+		text-align: center;
+	}
+
+	ul.over-list { 
+		padding: 1em;
+		list-style-type: disc !important;
+
+		li {
+			list-style-type: disc !important;
+		}
+	}
+	
+}
+
+.pad-me{
+	padding: 0 0.75em 0 0.75em;
+}
+
+.twitter-timeline {
+	margin: 0 auto;
+}
+
+.fa {
+	font-size: 2em;
+}
+
+.unstyle-list{
+	list-style-type: none;
+}
