@@ -1,37 +1,21 @@
-
-
-
-    <header class="site-header">
+<header class="site-header">
 
   <div class="wrap">
 
-    <img src="http://avifoxi.github.io/images/avi_head.jpg" alt="">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <div class="right_header">
-      
-
-      <h2><a class="site-title" href="{{ site.baseurl }}/">Avi Fox-Rosen</a></h2>
-
-      <p>{ RoR web developer }<br>{ musician }<br>{ home recording geek }<br>{ smoked fish connoisseur }</p>
-
-      <nav class="site-nav">         
-          <div class="trigger">
-            <ul>
-              {% for page in site.pages_list %}
-              &nbsp;&nbsp;&nbsp;
-              <a href="{{ page[1]  }}">{{ page[0] }}</a>
-            {% endfor %}
-            </ul>
-
-          
-
-          </div>
-      </nav>
     
-    </div>
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        
+      </a>
+      <div class="trigger">
+        {% for page in site.pages %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
 
   </div>
-
-
 
 </header>
