@@ -2,7 +2,7 @@
 layout: post
 title:  "Heroku, Assets, and The AWS Rabbithole"
 date:   2014-09-28 17:03:20
-categories: music-tech, assets, heroku
+categories: music-tech assets heroku
 ---
 
 I'm back from a wonderful week of vacation, and jumping back into developing, applying, and learning. And - I'm working through the kinks of deploying my [drum machine app](https://github.com/avifoxi/browser-drum-machine)! Close... but nooooot quite there yet. 
