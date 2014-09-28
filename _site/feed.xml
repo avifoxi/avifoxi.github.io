@@ -7,6 +7,24 @@
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Heroku, Assets, and The AWS Rabbithole</title>
+        <description>&lt;p&gt;I’m back from a wonderful week of vacation, and jumping back into developing, applying, and learning. And - I’m working through the kinks of deploying my &lt;a href=&quot;https://github.com/avifoxi/browser-drum-machine&quot;&gt;drum machine app&lt;/a&gt;! Close… but nooooot quite there yet. &lt;/p&gt;
+
+&lt;p&gt;Those familiar with Heroku will be familiar with the handful of stock challenges that Heroku poses for assets. There are 2 types of static assets where a Rails app can get into trouble. Rails compiles and compresses all assets by default, but Heroku will not recompile these files when deploying later iterations. So for CSS and JS files, if you want fluid recompilation on each iteration of your app - best to add the &lt;a href=&quot;https://github.com/heroku/rails_12factor&quot;&gt;12factor gem&lt;/a&gt;, which overrides Heroku’s default and forces the server to recompile assets. Quirky, but a well documented and relatively simple fix. &lt;/p&gt;
+
+&lt;p&gt;We get into more trouble with static assets that demand more storage, and are not integral to business logic of the app. Such as photos, music, and video. &lt;/p&gt;
+
+&lt;p&gt;Heroku reccomends using &lt;a href=&quot;http://aws.amazon.com/s3/&quot;&gt;Amazon Web Services S3&lt;/a&gt; for storage. And I am learning now that configuring these 2 services to work in sync is not quite as obvious as one might hope. No surprises there, I suppose. &lt;/p&gt;
+
+&lt;p&gt;A more in depth blog post is in the works - but this is a configuration brain teaser. The pieces I am juggling include using S3 to store my static music files. Then configuring a virtual machine instance (EC2) to serve these assets to my app. And ensuring security at each stage with keys and configuration. I do feel a bit like I am building a Rube Goldberb machine to make a piece of toast… but I also think that configuring this setup will be worth the investment of time in the future– especially as I prepare for a nepotistically acquired project (thanks Dad…) building a fund raising site with social networking features. Allowing individual users to upload photos to their profile pages will likely rely on a similar configuration. And good to dive into this off the clock the first time around. OK! Now I gotta read some &lt;a href=&quot;http://aws.amazon.com/documentation/&quot;&gt;docs&lt;/a&gt;… &lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 28 Sep 2014 13:03:20 -0400</pubDate>
+        <link>http://yourdomain.com/music-tech,/assets,/heroku/2014/09/28/heroku-and-the-assets-rabbithole/</link>
+        <guid isPermaLink="true">http://yourdomain.com/music-tech,/assets,/heroku/2014/09/28/heroku-and-the-assets-rabbithole/</guid>
+      </item>
+    
+      <item>
         <title>Adapting Chris Wilson&#39;s Metronome for my Drum Machine App</title>
         <description>&lt;p&gt;I’ve been working on a simple drum machine in the browser for several weeks. I’m really excited about this app for several reasons: the entry point for working with the Web Audio API, the chance to hand roll a front end MVC stucture, attempting to style a vintage feeling drum machine…. 
 AND - I’ll likely explore each of these elements in greater depth soon. &lt;/p&gt;
