@@ -8,9 +8,10 @@ I love to build things. Often with friends, and often on my own. Here is an ever
 
 ## Code Projects
 
+* [Should I Send This?](http://shouldisendthis.herokuapp.com/) is a Ruby on Rails application that allows you as a writer to compare what you _think_ you're writing against Alchemy API's extraction of your key words and concepts. I proposed this DBC final project, and served as lead for a team of 4 students. [Github repo](https://github.com/avifoxi/should-i-send-this).
+
 * [Foxi Drum Machine](http://bit.ly/1t3knM8) is an interactive drum sequencer that I built in the browser. Playback is managed by the Web Audio API, and front end is handled by a hand rolled Javascript MVC. Back end is Ruby on Rails. [Github repo](https://github.com/avifoxi/browser-drum-machine)
 
-* [Should I Send This?](http://shouldisendthis.herokuapp.com/) is a Ruby on Rails application that allows you as a writer to compare what you _think_ you're writing against Alchemy API's extraction of your key words and concepts. I proposed this DBC final project, and served as lead for a team of 4 students. [Github repo](https://github.com/avifoxi/should-i-send-this).
 
 * [Prompt and Circumstance](http://promptandcircumstance.herokuapp.com/) is an app for friends to offer responses to each others' prompts. Haikus, jokes, questions, etc. RoR, PostgreSQL. [Github repo](https://github.com/avifoxi/prompt-and-circumstance).
 
